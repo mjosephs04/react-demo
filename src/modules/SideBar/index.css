@@ -1,0 +1,37 @@
+.nav-bar{
+    background: #0f1b46;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+
+    .icons{
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        padding: 4px;
+
+        &:hover{
+            /*color:white*/
+            background: white;
+        }
+
+    }
+
+    .active{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        display: block;
+        color: black;
+
+
+        &:hover{
+            color: white;
+        }
+    }
+
+
+}
