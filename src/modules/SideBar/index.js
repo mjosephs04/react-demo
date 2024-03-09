@@ -6,16 +6,18 @@ import "./index.css"
 const SideBar = () => {
     return (
         <nav className="nav-bar">
-            <Link to={'/'}>
-                <img src={homeLogo} className='icons' />
-            </Link>
+            <div className="center">
 
-            <Link to={'/about'}>
-                <img src={homeLogo} className='icons' />
-            </Link>
+                <Link className="home-link" to={'/'}>
+                    <p className='home-text-overlay'>HOME</p>
+                    <img src={homeLogo} className='icons' />
+                </Link>
 
+                <Link className="about-link" to={'/about'}>
+                    <h1>ABOUT</h1>
+                </Link>
 
-
+            </div>
         </nav>
     );
 }

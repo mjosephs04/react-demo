@@ -7,7 +7,7 @@ const Layout = () => {
         <div className="page">
             <Sidebar />
             <Outlet />
-            <h1 className="logo">LOGO HERE</h1>
+            {/*<h1 className="logo">LOGO HERE</h1>*/}
         </div>
 );
 }
