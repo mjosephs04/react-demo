@@ -5,7 +5,7 @@ import "./index.css"
 const Test = () =>{
     return (
         <div>
-            <h1>testing testing</h1>
+            <h1 className="test">testing testing</h1>
             <h1>where is this??</h1>
         </div>
     );
