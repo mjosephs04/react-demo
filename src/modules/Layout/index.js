@@ -1,15 +1,23 @@
-import Sidebar from "../SideBar"
-import "./index.css"
-import {Outlet} from "react-router-dom"
+import './index.scss';
+import SideBar from "../SideBar";
+import {Outlet} from "react-router-dom";
 
 const Layout = () => {
     return (
-        <div className="page">
-            <Sidebar />
-            <Outlet />
-            <h1 className="logo">LOGO HERE</h1>
+        <div className='App'>
+            <SideBar/>
+            <div className='page'>
+                <span className='tags top-tags '>&lt;body&gt;</span>
+                <Outlet/>
+                <span className='tage bottom-tags'>
+                        &lt;body&gt;
+                    <br/>
+                        <span className='tags bottom-tag-html'>&lt;/html&gt;</span>
+                    </span>
+
+            </div>
         </div>
-);
+    )
 }
 
 export default Layout

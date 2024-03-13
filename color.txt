@@ -1,0 +1,4 @@
+green: 295057
+purple: 324549
+brown: B69C82
+grey: B8B4A1

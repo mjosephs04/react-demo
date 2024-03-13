@@ -1,37 +1,39 @@
-.nav-bar{
-    background: #0f1b46;
-    width: 50px;
-    height: 100%;
-    position: absolute;
+.nav-bar {
+    background: #B8B4A1;
+    width: 100%;
+    height: 49px;
+    position: relative;
     top: 0;
-    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-    .icons{
-        display: block;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        padding: 4px;
+.icons {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
 
-        &:hover{
-            /*color:white*/
-            background: white;
-        }
+.aboutLink {
+    font-family: 'Calibri';
+    color: white;
+    margin-left: 20px;
+    /* Add margin to separate the "About" link from the "Home" icon */
+}
 
-    }
+.active {
+    color: black;
+}
 
-    .active{
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        display: block;
-        color: black;
+.link {
+    text-decoration: none;
+}
 
-
-        &:hover{
-            color: white;
-        }
-    }
-
-
+.icons:hover,
+.active:hover {
+    background: white;
+    color: black;
 }
